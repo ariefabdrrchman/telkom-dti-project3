@@ -1,0 +1,26 @@
+{
+    "name": "gameQoo",
+    "version": "1.0.0",
+    "description": "gameQooTesting",
+    "main": "index.js",
+    "dependencies": {
+        "assert": "^2.0.0",
+        "chromedriver": "^2.44.0",
+        "phantomjs": "^2.1.7"
+    },
+    "devDependencies": {
+        "selenium-cucumber-js": "^1.8.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "scripts": {
+        "test": "node ./node_modules/selenium-cucumber-js/index.js -s ./step-definitions",
+        "test-headless": "node ./index.js -s ./step-definitions"
+    },
+    "author1": "adityoSatrio",
+    "author2": "ariefAbdurrachman",
+    "author3": "salma",
+    "license": "telkomUniversity"
+}

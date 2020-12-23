@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="login;user-fails-to-login-because-invalid-password" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/aerefabdrrchman/gameQoo/features/login-fail-password.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse login page" classname="login;user-fails-to-login-because-invalid-password" time="0.0014979">
+        </testcase>
+        <testcase name="And user fill email field with right username" classname="login;user-fails-to-login-because-invalid-password" time="0.0011259">
+        </testcase>
+        <testcase name="And user fill password field with wrong password" classname="login;user-fails-to-login-because-invalid-password" time="0.0007896">
+        </testcase>
+        <testcase name="When user click the log in button" classname="login;user-fails-to-login-because-invalid-password" time="0.0006198">
+        </testcase>
+        <testcase name="Then user can see popup message" classname="login;user-fails-to-login-because-invalid-password" time="37.2823128">
+        </testcase>
+    </testsuite>
+    <testsuite name="login;user-fails-to-login-because-invalid-username" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/aerefabdrrchman/gameQoo/features/login-fail-username.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse login page" classname="login;user-fails-to-login-because-invalid-username" time="0.0004771">
+        </testcase>
+        <testcase name="And user fill email field with wrong username" classname="login;user-fails-to-login-because-invalid-username" time="0.0007495">
+        </testcase>
+        <testcase name="And user fill password field with right password" classname="login;user-fails-to-login-because-invalid-username" time="0.0005353">
+        </testcase>
+        <testcase name="When user click the login button" classname="login;user-fails-to-login-because-invalid-username" time="0.000567">
+        </testcase>
+        <testcase name="Then user can see pop up message" classname="login;user-fails-to-login-because-invalid-username" time="36.4679029">
+        </testcase>
+    </testsuite>
+    <testsuite name="login;user-fails-to-login-because-unregistered-account" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/aerefabdrrchman/gameQoo/features/login-fail.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse login page" classname="login;user-fails-to-login-because-unregistered-account" time="0.0005226">
+        </testcase>
+        <testcase name="And user fill email field with unregistered email" classname="login;user-fails-to-login-because-unregistered-account" time="0.0005096">
+        </testcase>
+        <testcase name="And user fill password field with unregistered password" classname="login;user-fails-to-login-because-unregistered-account" time="0.0008815">
+        </testcase>
+        <testcase name="When user push the login button" classname="login;user-fails-to-login-because-unregistered-account" time="0.0005554">
+        </testcase>
+        <testcase name="Then user can see pop up or warning message" classname="login;user-fails-to-login-because-unregistered-account" time="16.8284448">
+        </testcase>
+    </testsuite>
+    <testsuite name="login;user-success-to-login" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/aerefabdrrchman/gameQoo/features/login-success.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse login page" classname="login;user-success-to-login" time="0.0013992">
+        </testcase>
+        <testcase name="And user fill email field" classname="login;user-success-to-login" time="0.0005202">
+        </testcase>
+        <testcase name="And user fill password field" classname="login;user-success-to-login" time="0.000637">
+        </testcase>
+        <testcase name="When user click login button" classname="login;user-success-to-login" time="0.0005492">
+        </testcase>
+        <testcase name="Then user can see home page" classname="login;user-success-to-login" time="17.474588">
+        </testcase>
+    </testsuite>
+    <testsuite name="logout;user-success-to-logout" tests="8" failures="1" skipped="0">
+        <properties>
+            <property name="URI" value="C:/aerefabdrrchman/gameQoo/features/logout-success.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse log in for user page" classname="logout;user-success-to-logout" time="0.0005995">
+        </testcase>
+        <testcase name="And user fill the email field" classname="logout;user-success-to-logout" time="0.0005774">
+        </testcase>
+        <testcase name="And user fill the password field" classname="logout;user-success-to-logout" time="0.0005535">
+        </testcase>
+        <testcase name="And user click the button of login" classname="logout;user-success-to-logout" time="0.0007736">
+        </testcase>
+        <testcase name="And user can see its homepage" classname="logout;user-success-to-logout" time="14.5682775">
+        </testcase>
+        <testcase name="And user click toggle down" classname="logout;user-success-to-logout" time="0.1150591">
+        </testcase>
+        <testcase name="When user click logout button" classname="logout;user-success-to-logout" time="0.0007104">
+        </testcase>
+        <testcase name="Then user see homepage" classname="logout;user-success-to-logout" time="4.6290592">
+            <failure message="NoSuchElementError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Masuk&apos;)]&quot;}">NoSuchElementError: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Masuk&apos;)]&quot;}
+  (Session info: chrome=87.0.4280.88)
+  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.18363 x86_64)
+    at Object.checkLegacyResponse (C:\aerefabdrrchman\gameQoo\node_modules\selenium-webdriver\lib\error.js:529:15)
+    at parseHttpResponse (C:\aerefabdrrchman\gameQoo\node_modules\selenium-webdriver\lib\http.js:509:13)
+    at C:\aerefabdrrchman\gameQoo\node_modules\selenium-webdriver\lib\http.js:441:30
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+From: Task: WebDriver.findElement(By(xpath, //span[contains(text(),&apos;Masuk&apos;)]))
+    at thenableWebDriverProxy.schedule (C:\aerefabdrrchman\gameQoo\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at thenableWebDriverProxy.findElement (C:\aerefabdrrchman\gameQoo\node_modules\selenium-webdriver\lib\webdriver.js:1014:17)
+    at createWorld.&lt;anonymous&gt; (C:\aerefabdrrchman\gameQoo\step-definitions\logout-success-steps.js:48:23)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
+        </testcase>
+    </testsuite>
+    <testsuite name="register;user-fails-to-register-because-registered-email" tests="8" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/aerefabdrrchman/gameQoo/features/register-fail-email.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse page for register or sign up" classname="register;user-fails-to-register-because-registered-email" time="0.0011532">
+        </testcase>
+        <testcase name="And user fill fullname box" classname="register;user-fails-to-register-because-registered-email" time="0.0004978">
+        </testcase>
+        <testcase name="And user fill registered email" classname="register;user-fails-to-register-because-registered-email" time="0.0007324">
+        </testcase>
+        <testcase name="And user fill username field with unregistered username" classname="register;user-fails-to-register-because-registered-email" time="0.0006373">
+        </testcase>
+        <testcase name="And user fill user the password" classname="register;user-fails-to-register-because-registered-email" time="0.0006135">
+        </testcase>
+        <testcase name="And user click the accept terms and conditions button" classname="register;user-fails-to-register-because-registered-email" time="0.0004753">
+        </testcase>
+        <testcase name="When user click make account button" classname="register;user-fails-to-register-because-registered-email" time="0.0011262">
+        </testcase>
+        <testcase name="Then user see error message" classname="register;user-fails-to-register-because-registered-email" time="44.4899387">
+        </testcase>
+    </testsuite>
+    <testsuite name="register;user-fails-to-register-because-password-less-than-8-characters" tests="8" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/aerefabdrrchman/gameQoo/features/register-fail-password.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse page to sign up or register" classname="register;user-fails-to-register-because-password-less-than-8-characters" time="0.0004495">
+        </testcase>
+        <testcase name="And user fill name field" classname="register;user-fails-to-register-because-password-less-than-8-characters" time="0.0004403">
+        </testcase>
+        <testcase name="And user fill unregistered email in the field" classname="register;user-fails-to-register-because-password-less-than-8-characters" time="0.000545">
+        </testcase>
+        <testcase name="And user fill unregistered username in the field" classname="register;user-fails-to-register-because-password-less-than-8-characters" time="0.0007421">
+        </testcase>
+        <testcase name="And user fill incorrect password" classname="register;user-fails-to-register-because-password-less-than-8-characters" time="0.0005152">
+        </testcase>
+        <testcase name="And user click the button of accept terms and conditions" classname="register;user-fails-to-register-because-password-less-than-8-characters" time="0.000522">
+        </testcase>
+        <testcase name="When user click the make an account button" classname="register;user-fails-to-register-because-password-less-than-8-characters" time="0.0005717">
+        </testcase>
+        <testcase name="Then user see error" classname="register;user-fails-to-register-because-password-less-than-8-characters" time="42.9869562">
+        </testcase>
+    </testsuite>
+    <testsuite name="register;user-fails-to-register-because-registered-username" tests="8" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/aerefabdrrchman/gameQoo/features/register-fail-username.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse page for register" classname="register;user-fails-to-register-because-registered-username" time="0.0004476">
+        </testcase>
+        <testcase name="And user fill full name box" classname="register;user-fails-to-register-because-registered-username" time="0.000538">
+        </testcase>
+        <testcase name="And user fill unregistered email" classname="register;user-fails-to-register-because-registered-username" time="0.0006059">
+        </testcase>
+        <testcase name="And user fill username field with registered username" classname="register;user-fails-to-register-because-registered-username" time="0.0005726">
+        </testcase>
+        <testcase name="And user fill user password" classname="register;user-fails-to-register-because-registered-username" time="0.001613">
+        </testcase>
+        <testcase name="And user click accept terms and conditions button" classname="register;user-fails-to-register-because-registered-username" time="0.0009442">
+        </testcase>
+        <testcase name="When user click make account" classname="register;user-fails-to-register-because-registered-username" time="0.00065">
+        </testcase>
+        <testcase name="Then user see pop up error message" classname="register;user-fails-to-register-because-registered-username" time="44.6754556">
+        </testcase>
+    </testsuite>
+    <testsuite name="register;user-fails-to-register-because-registered-account" tests="8" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/aerefabdrrchman/gameQoo/features/register-fail.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse page for sign up or register" classname="register;user-fails-to-register-because-registered-account" time="0.0004425">
+        </testcase>
+        <testcase name="And user fill fullname field" classname="register;user-fails-to-register-because-registered-account" time="0.0004362">
+        </testcase>
+        <testcase name="And user fill email with registered email" classname="register;user-fails-to-register-because-registered-account" time="0.0004471">
+        </testcase>
+        <testcase name="And user fill username field with already registered username" classname="register;user-fails-to-register-because-registered-account" time="0.0005424">
+        </testcase>
+        <testcase name="And user fill the password" classname="register;user-fails-to-register-because-registered-account" time="0.000454">
+        </testcase>
+        <testcase name="And user click button of accept terms and conditions" classname="register;user-fails-to-register-because-registered-account" time="0.0005384">
+        </testcase>
+        <testcase name="When user click the make account button" classname="register;user-fails-to-register-because-registered-account" time="0.0005544">
+        </testcase>
+        <testcase name="Then user see error pop up message or alert" classname="register;user-fails-to-register-because-registered-account" time="44.1398994">
+        </testcase>
+    </testsuite>
+    <testsuite name="register;user-success-to-register" tests="8" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/aerefabdrrchman/gameQoo/features/register-success.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse register page" classname="register;user-success-to-register" time="0.0006345">
+        </testcase>
+        <testcase name="And user fill full name field" classname="register;user-success-to-register" time="0.000638">
+        </testcase>
+        <testcase name="And user fill email" classname="register;user-success-to-register" time="0.0005192">
+        </testcase>
+        <testcase name="And user fill username" classname="register;user-success-to-register" time="0.0004466">
+        </testcase>
+        <testcase name="And user fill password" classname="register;user-success-to-register" time="0.0005027">
+        </testcase>
+        <testcase name="And user click accept terms and conditions" classname="register;user-success-to-register" time="0.00052">
+        </testcase>
+        <testcase name="When user click make an account" classname="register;user-success-to-register" time="0.0004835">
+        </testcase>
+        <testcase name="Then user see home page" classname="register;user-success-to-register" time="25.2411337">
+        </testcase>
+    </testsuite>
+    <testsuite name="search;user-success-to-search-an-exist-game" tests="9" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/aerefabdrrchman/gameQoo/features/search-byUser-exist.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse login pages" classname="search;user-success-to-search-an-exist-game" time="0.0004176">
+        </testcase>
+        <testcase name="And user fill email box" classname="search;user-success-to-search-an-exist-game" time="0.0004996">
+        </testcase>
+        <testcase name="And user fill password box" classname="search;user-success-to-search-an-exist-game" time="0.000709">
+        </testcase>
+        <testcase name="And user click login" classname="search;user-success-to-search-an-exist-game" time="0.000537">
+        </testcase>
+        <testcase name="And user can see homepage" classname="search;user-success-to-search-an-exist-game" time="14.3671948">
+        </testcase>
+        <testcase name="And user go to game page" classname="search;user-success-to-search-an-exist-game" time="0.0006355">
+        </testcase>
+        <testcase name="And user fill search with game" classname="search;user-success-to-search-an-exist-game" time="0.0008324">
+        </testcase>
+        <testcase name="When user click the search button" classname="search;user-success-to-search-an-exist-game" time="0.0014364">
+        </testcase>
+        <testcase name="Then user see the game" classname="search;user-success-to-search-an-exist-game" time="11.1163511">
+        </testcase>
+    </testsuite>
+    <testsuite name="search;user-success-to-search-a-non-existing-game" tests="9" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/aerefabdrrchman/gameQoo/features/search-byUser-nonExist.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse user login pages" classname="search;user-success-to-search-a-non-existing-game" time="0.0005056">
+        </testcase>
+        <testcase name="And user fill in email field" classname="search;user-success-to-search-a-non-existing-game" time="0.0005734">
+        </testcase>
+        <testcase name="And user fill in password field" classname="search;user-success-to-search-a-non-existing-game" time="0.0007436">
+        </testcase>
+        <testcase name="And user click button of login" classname="search;user-success-to-search-a-non-existing-game" time="0.0005267">
+        </testcase>
+        <testcase name="And user able to see homepage" classname="search;user-success-to-search-a-non-existing-game" time="14.3042485">
+        </testcase>
+        <testcase name="And user went game page" classname="search;user-success-to-search-a-non-existing-game" time="0.000621">
+        </testcase>
+        <testcase name="And user fill search field with non exist game" classname="search;user-success-to-search-a-non-existing-game" time="0.0005735">
+        </testcase>
+        <testcase name="When user click search button icon" classname="search;user-success-to-search-a-non-existing-game" time="0.0005876">
+        </testcase>
+        <testcase name="Then user see the game which doesn&apos;t exist" classname="search;user-success-to-search-a-non-existing-game" time="11.1657927">
+        </testcase>
+    </testsuite>
+    <testsuite name="search;user-success-to-search-an-existing-game" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/aerefabdrrchman/gameQoo/features/search-exist.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse games page" classname="search;user-success-to-search-an-existing-game" time="0.0008359">
+        </testcase>
+        <testcase name="And user fill search field" classname="search;user-success-to-search-an-existing-game" time="0.0018638">
+        </testcase>
+        <testcase name="When user click search button" classname="search;user-success-to-search-an-existing-game" time="0.0007521">
+        </testcase>
+        <testcase name="Then user can see the game" classname="search;user-success-to-search-an-existing-game" time="36.9321353">
+        </testcase>
+    </testsuite>
+    <testsuite name="search;user-success-to-search-not-existing-game" tests="4" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/aerefabdrrchman/gameQoo/features/search-nonExist.feature">
+            </property>
+        </properties>
+        <testcase name="Given user browse game page to search" classname="search;user-success-to-search-not-existing-game" time="0.0009158">
+        </testcase>
+        <testcase name="And user fill non exist game on search field" classname="search;user-success-to-search-not-existing-game" time="0.0012019">
+        </testcase>
+        <testcase name="When user clicking the search button" classname="search;user-success-to-search-not-existing-game" time="0.0005369">
+        </testcase>
+        <testcase name="Then user can see warning pop up" classname="search;user-success-to-search-not-existing-game" time="36.275677">
+        </testcase>
+    </testsuite>
+</testsuites>
